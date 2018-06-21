@@ -30,5 +30,17 @@ def three():
     print(ww)
 
 
+def four():
+    di = {"wang": 1, "li": 2}
+    for index in di:
+        print(di[index])
+
+def five():
+    octes = [192, 168, 0, 1]
+    ss ='{:02X}{:02x}{:02x}{:02x}'.format(*octes)
+    print(ss)
+
+
+
 if __name__ == '__main__':
-    three()
+    five()
