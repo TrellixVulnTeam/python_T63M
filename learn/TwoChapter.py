@@ -37,10 +37,13 @@ def four():
 
 def five():
     octes = [192, 168, 0, 1]
-    ss ='{:02X}{:02x}{:02x}{:02x}'.format(*octes)
+    ss ='{:02d}---{:02d}---{:02d}---{:02d}'.format(*octes)
     print(ss)
 
-
+def six():
+    name = "123"
+    print(name.isalnum())
+    print("{0:x<8}".format(name))
 
 if __name__ == '__main__':
-    five()
+    six()
