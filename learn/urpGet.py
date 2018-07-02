@@ -18,7 +18,7 @@ class getResource:
         handler = urllib.request.HTTPCookieProcessor(cookiejar=cok)
         opener = urllib.request.build_opener(handler)
         r = opener.open(req)
-        with open("d:/w.jpeg", "wb") as f:
+        with open("C:/Users/k/gitme/python/w.jpeg", "wb") as f:
             f.write(r.read())
         print(cok)
         for index in cok:
@@ -29,7 +29,7 @@ class getResource:
         ss = input("请输入验证码")
         print(ss)
         result = {'zjh1': '', 'tips': '', 'evalue': '', 'eflag': '', 'fs': '', 'dzslh': '',
-                  'zjh': '131292', 'mm': '131292', 'v_yzm': ss}
+                  'zjh': '131292', 'mm': '131292', 'v_yzm': ss, 'lx': ''}
         rs = urllib.parse.urlencode(result).encode(encoding='UTF8')
         url_login = 'http://urp.npumd.cn/loginAction.do'
         req_login = urllib.request.Request(url=url_login, headers=headers, data=rs)
@@ -49,25 +49,26 @@ class getResource:
     def req_html(self):
         urls = 'http://urp.npumd.cn/validateCodeAction.do?random=0.14807469019073965'
         headers = {'user-agent': 'User-Agent	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
-                   'Connection': 'keep-alive'}
+                   'Connection': 'keep-alive', 'Host': 'urp.npumd.cn', 'Referer': 'http://urp.npumd.cn/'}
+        sar = requests.Session()
+        ss = sar.get(url=urls, headers=headers)
 
-        ss = requests.get(url=urls, headers=headers)
-        s_cookie = ss.cookies
-        print(type(ss.cookies))
-        sa = requests.utils.dict_from_cookiejar(ss.cookies)
-        print(sa)
-        with open("d:/w.jpeg", "wb") as f:
+        print((ss.cookies))
+        with open("C:/Users/k/gitme/python/w.jpeg", "wb") as f:
             f.write(ss.content)
         ssa = input("请输入验证码")
         print(ssa)
         result = {'zjh1': '', 'tips': '', 'evalue': '', 'eflag': '', 'fs': '', 'dzslh': '',
-                  'zjh': '131292', 'mm': '131292', 'v_yzm': ssa}
+                  'zjh': '141275', 'mm': '141275', 'v_yzm': ssa, 'lx': ''}
         rs = urllib.parse.urlencode(result).encode(encoding='UTF8')
         url_login = 'http://urp.npumd.cn/loginAction.do'
-        ssrq = requests.session()
-        requests.utils.add_dict_to_cookiejar(ssrq.cookies, sa)
-        resp = ssrq.post(url_login, data=rs, headers=headers)
+        # ,cookies=requests.utils.dict_from_cookiejar(ss.cookies)
+        resp = sar.post(url_login, data=rs, headers=headers,
+                        cookies=requests.utils.dict_from_cookiejar(ss.cookies))
         print(resp.text)
+
+        # with open("C:/Users/k/gitme/python/w.html", "wb") as f:
+        #     f.write(resp.text.encode())
 
 
 if __name__ == '__main__':
