@@ -2,7 +2,6 @@
 import http.cookiejar as cookie
 import urllib
 import urllib.parse
-import binascii
 import urllib.request
 
 import requests
@@ -61,12 +60,13 @@ class getResource:
         print(ssa)
         result = {'zjh1': '', 'tips': '', 'evalue': '', 'eflag': '', 'fs': '', 'dzslh': '',
                   'zjh': '141275', 'mm': '141275', 'v_yzm': ssa, 'lx': ''}
-        rs = urllib.parse.urlencode(result).encode(encoding='UTF8')
+        # rs = urllib.parse.urlencode(result).encode(encoding='UTF8')
         url_login = 'http://urp.npumd.cn/loginAction.do'
         # ,cookies=requests.utils.dict_from_cookiejar(ss.cookies)
         print(sar.cookies)
-        resp = sar.post(url_login, data=rs, headers=headers, allow_redirects=False)
-                        # cookies=requests.utils.dict_from_cookiejar(ss.cookies))
+        resp = sar.post(url_login, data=result
+                        , headers=headers)
+        # cookies=requests.utils.dict_from_cookiejar(ss.cookies))
         print(resp.text)
 
         # with open("C:/Users/k/gitme/python/w.html", "wb") as f:
@@ -74,14 +74,4 @@ class getResource:
 
 
 if __name__ == '__main__':
-    string = "01 02 00 03 04 50 ff 67"
-    ss = bytes.fromhex(string)
-    print(ss)
-    # result = binascii.b2a_hex(bytes.hex(string))
-    # c = binascii.hexlify(string)
-    # print(c)
-    # print(result)
-
-    import random
-    re = random.randrange(0,9)
-    print(re)
+    getResource().req_html()
