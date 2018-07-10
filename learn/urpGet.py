@@ -68,26 +68,15 @@ class getResource:
         resp = sess.post(url_login, data=result
                          , headers=headers)
         # cookies=requests.utils.dict_from_cookiejar(ss.cookies))
-        print(resp.text)
 
         # with open("C:/Users/k/gitme/python/w.html", "wb") as f:
         #     f.write(resp.text.encode())
         txt = sess.get(url="http://urp.npumd.cn/gradeLnAllAction.do?type=ln&oper=qbinfo&lnxndm=2016-2017学年第二学期(三学期)")
-        # print(txt.text)
-        # tp = txt.html.find('body', first=True)
-        # print(tp.attrs)
-        # lsa = tp.find('td')
-        # for index in range(len(lsa)):
-        #     print(lsa[index])
-        # print()
-        ts = txt.text
-
-        print(txt.content)
-        tst = str(txt.content)
-        ts = (tst.replace("b'", '').replace("\r", ''))
-        import re
-        rs = re.findall(r'<td>(.*?)</td>', ts, re.I | re.M)
-        print(rs)
+        tp = txt.html.find('body', first=True)
+        ts = tp.find('td')
+        for index in ts:
+            print(index.text)
+        print()
 
 
 if __name__ == '__main__':
