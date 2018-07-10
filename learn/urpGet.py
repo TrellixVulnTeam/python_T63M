@@ -4,8 +4,6 @@ import urllib
 import urllib.parse
 import urllib.request
 
-import requests
-
 
 class getResource:
     def get_html(self):
@@ -47,11 +45,14 @@ class getResource:
         print(result_all.read().decode('gbk'))
 
     def req_html(self):
+        from requests_html import HTMLSession
+        sess = HTMLSession()
+
         urls = 'http://urp.npumd.cn/validateCodeAction.do?random=0.14807469019073965'
         headers = {'user-agent': 'User-Agent	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
                    'Connection': 'keep-alive', 'Host': 'urp.npumd.cn', 'Referer': 'http://urp.npumd.cn/'}
-        sar = requests.Session()
-        ss = sar.get(url=urls, headers=headers)
+
+        ss = sess.get(url=urls, headers=headers)
 
         print((ss.cookies))
         with open("C:/Users/k/gitme/python/w.jpeg", "wb") as f:
@@ -63,15 +64,33 @@ class getResource:
         # rs = urllib.parse.urlencode(result).encode(encoding='UTF8')
         url_login = 'http://urp.npumd.cn/loginAction.do'
         # ,cookies=requests.utils.dict_from_cookiejar(ss.cookies)
-        print(sar.cookies)
-        resp = sar.post(url_login, data=result
-                        , headers=headers)
+        print(sess.cookies)
+        resp = sess.post(url_login, data=result
+                         , headers=headers)
         # cookies=requests.utils.dict_from_cookiejar(ss.cookies))
         print(resp.text)
 
         # with open("C:/Users/k/gitme/python/w.html", "wb") as f:
         #     f.write(resp.text.encode())
+        txt = sess.get(url="http://urp.npumd.cn/gradeLnAllAction.do?type=ln&oper=qbinfo&lnxndm=2016-2017学年第二学期(三学期)")
+        # print(txt.text)
+        # tp = txt.html.find('body', first=True)
+        # print(tp.attrs)
+        # lsa = tp.find('td')
+        # for index in range(len(lsa)):
+        #     print(lsa[index])
+        # print()
+        ts = txt.text
+
+        print(txt.content)
+        tst = str(txt.content)
+        ts = (tst.replace("b'", '').replace("\r", ''))
+        import re
+        rs = re.findall(r'<td>(.*?)</td>', ts, re.I | re.M)
+        print(rs)
 
 
 if __name__ == '__main__':
     getResource().req_html()
+    # ss = "b'sssasa"
+    # print(ss[2:-1])
