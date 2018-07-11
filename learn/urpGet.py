@@ -76,7 +76,12 @@ class getResource:
         ts = tp.find('td')
         for index in ts:
             print(index.text)
-        print()
+
+        from lxml import etree
+        print(txt.text)
+        htm = etree.HTML(txt.text)
+        html_data = htm.xpath('/html/body/table/td')
+        print(html_data)
 
 
 if __name__ == '__main__':
