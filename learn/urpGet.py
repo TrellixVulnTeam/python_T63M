@@ -74,6 +74,7 @@ class getResource:
         txt = sess.get(url="http://urp.npumd.cn/gradeLnAllAction.do?type=ln&oper=qbinfo&lnxndm=2016-2017学年第二学期(三学期)")
         tp = txt.html.find('body', first=True)
         ts = tp.find('td')
+        print(ts)
         for index in ts:
             print(index.text)
 

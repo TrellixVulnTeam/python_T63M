@@ -1,0 +1,156 @@
+1533563091833	geckodriver	INFO	geckodriver 0.21.0
+1533563091847	geckodriver	INFO	Listening on 127.0.0.1:52904
+1533563094844	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.AZtIQHvjJQhb"
+*** You are running in headless mode.
+1533563097363	Marionette	INFO	Listening on port 52914
+1533563097699	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+[Parent 1276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533563272234	geckodriver	INFO	geckodriver 0.21.0
+1533563272243	geckodriver	INFO	Listening on 127.0.0.1:52979
+1533563275243	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.bBLCfFoErMmv"
+*** You are running in headless mode.
+1533563277385	Marionette	INFO	Listening on port 52988
+1533563277500	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533563518668	geckodriver	INFO	geckodriver 0.21.0
+1533563518677	geckodriver	INFO	Listening on 127.0.0.1:53062
+1533563521679	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.QDMLM3e6GO32"
+*** You are running in headless mode.
+1533563523855	Marionette	INFO	Listening on port 53071
+1533563523968	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+[Child 4784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4784, Chrome_ChildThread] *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533563536219	geckodriver	INFO	geckodriver 0.21.0
+1533563536228	geckodriver	INFO	Listening on 127.0.0.1:53122
+1533563539245	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.b2OBZ8gqdyik"
+*** You are running in headless mode.
+1533563541414	Marionette	INFO	Listening on port 53132
+1533563541490	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+[Parent 8692, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533563556947	geckodriver	INFO	geckodriver 0.21.0
+1533563556956	geckodriver	INFO	Listening on 127.0.0.1:53183
+1533563559956	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.A3hmEAJSaikg"
+*** You are running in headless mode.
+1533563562147	Marionette	INFO	Listening on port 53192
+1533563562230	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+[Child 2180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533564330398	geckodriver	INFO	geckodriver 0.21.0
+1533564330407	geckodriver	INFO	Listening on 127.0.0.1:53396
+1533564408378	geckodriver	INFO	geckodriver 0.21.0
+1533564408387	geckodriver	INFO	Listening on 127.0.0.1:53407
+1533564411390	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.glf6Frj03OGA"
+*** You are running in headless mode.
+1533564413470	Marionette	INFO	Listening on port 53417
+1533564413685	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+1533564511780	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1533564662533	geckodriver	INFO	geckodriver 0.21.0
+1533564662543	geckodriver	INFO	Listening on 127.0.0.1:53647
+1533564665544	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.0fwpvrfXOqws"
+*** You are running in headless mode.
+1533564667696	Marionette	INFO	Listening on port 53657
+1533564667782	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+1533564719031	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1533564818019	geckodriver	INFO	geckodriver 0.21.0
+1533564818028	geckodriver	INFO	Listening on 127.0.0.1:54001
+1533564821029	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.HDOIkhSyAHZQ"
+*** You are running in headless mode.
+1533564823141	Marionette	INFO	Listening on port 54010
+1533564823306	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+1533564854953	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1533565242654	geckodriver	INFO	geckodriver 0.21.0
+1533565242662	geckodriver	INFO	Listening on 127.0.0.1:54478
+1533565245663	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.vgHgNhYhYkMy"
+*** You are running in headless mode.
+1533565247771	Marionette	INFO	Listening on port 54488
+1533565247933	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+1533565487254	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+127.0.0.1:54907
+1533565458984	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.hhVyG1GiWYBC"
+*** You are running in headless mode.
+1533565461184	Marionette	INFO	Listening on port 54916
+1533565461232	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+1533567205590	geckodriver	INFO	geckodriver 0.21.0
+1533567205602	geckodriver	INFO	Listening on 127.0.0.1:56191
+1533567208603	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.W5R7HDG30x1o"
+*** You are running in headless mode.
+1533567210833	Marionette	INFO	Listening on port 56201
+1533567210869	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+1533567242878	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1533567864380	geckodriver	INFO	geckodriver 0.21.0
+1533567864389	geckodriver	INFO	Listening on 127.0.0.1:56377
+1533567867393	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.CKbvWZ77GCmG"
+*** You are running in headless mode.
+1533567869957	Marionette	INFO	Listening on port 56387
+1533567870268	Ma1533567870613	mozrunner::runner	INFO	Running command: "C:\\Program FileJavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.mu1533567874522	Marionette	INFO	Listening on port 56413
+1533567874612	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+1533567884409	geckodriver	INFO	geckodriver 0.21.0
+1533567884418	geckodriver	INFO	Listening on 127.0.0.1:56503
+1533567887418	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.2UwrRh2NmLK7"
+*** You are running in headless mode.
+1533567889834	Marionette	INFO	Listening on port 56511
+1533567890250	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+1533568300324	geckodriver	INFO	geckodriver 0.21.0
+1533568300334	geckodriver	INFO	Listening on 127.0.0.1:57247
+1533568303336	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.9myU6J0ySZ4Y"
+*** You are running in headless mode.
+1533568306148	Marionette	INFO	Listening on port 57257
+1533568306218	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666dedc3974.js?1042d9d69e6613c4258a5666dedc3974, line 94: unreachable code after return statement
+1533568346314	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1533732985308	geckodriver	INFO	geckodriver 0.21.0
+1533732985336	geckodriver	INFO	Listening on 127.0.0.1:55583
+1533732988372	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.sskejuTmFt1E"
+*** You are running in headless mode.
+1533732990373	Marionette	INFO	Listening on port 55591
+1533732990615	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_dc8768382daf3748b05e02f5654eef11.js?dc8768382daf3748b05e02f5654eef11, line 94: unreachable code after return statement
