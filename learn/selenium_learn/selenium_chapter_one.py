@@ -8,7 +8,7 @@ from selenium.webdriver.firefox.options import Options
 
 
 def sele_learn():
-    csv_file = open("C:/Users/k/gitme/wyy_lg500.csv", "w", newline='', encoding='utf-8')
+    csv_file = open("C:/Users/k/gitme/wyy_lg500-8.13.csv", "w", newline='', encoding='utf-8')
     writer = csv.writer(csv_file)
     writer.writerow(["标题", "播放量", "链接"])
 
@@ -24,7 +24,7 @@ def sele_learn():
         for i in range(len(data)):
             nb = data[i].find_element_by_class_name("nb").text
 
-            if "万" in nb and 200 <int(nb.split("万")[0]) < 500:
+            if "万" in nb and 500 < int(nb.split("万")[0]):
                 msk = data[i].find_element_by_css_selector("a.msk")
                 writer.writerow([msk.get_attribute('title'), nb, msk.get_attribute("href")])
                 # driver.get(msk.get_attribute("href"))

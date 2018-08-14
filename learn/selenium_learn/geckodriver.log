@@ -154,3 +154,26 @@ JavaScript warning: https://s3.music.126.net/web/s/core_1042d9d69e6613c4258a5666
 1533732990373	Marionette	INFO	Listening on port 55591
 1533732990615	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://s3.music.126.net/web/s/core_dc8768382daf3748b05e02f5654eef11.js?dc8768382daf3748b05e02f5654eef11, line 94: unreachable code after return statement
+1534170079306	geckodriver	INFO	geckodriver 0.21.0
+1534170079346	geckodriver	INFO	Listening on 127.0.0.1:49260
+1534170082347	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.oHvFbKx5E3m9"
+*** You are running in headless mode.
+1534170085731	Marionette	INFO	Listening on port 49273
+1534170085785	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e4fbfa3aba3a28a2d4f5031a245d1921.js?e4fbfa3aba3a28a2d4f5031a245d1921, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e4fbfa3aba3a28a2d4f5031a245d1921.js?e4fbfa3aba3a28a2d4f5031a245d1921, line 94: unreachable code after return statement
+1534170125071	geckodriver	INFO	geckodriver 0.21.0
+1534170125080	geckodriver	INFO	Listening on 127.0.0.1:49339
+1534170128132	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\k\\AppData\\Local\\Temp\\rust_mozprofile.GeKcG0sfTiVV"
+*** You are running in headless mode.
+1534170131014	Marionette	INFO	Listening on port 49348
+1534170131228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e4fbfa3aba3a28a2d4f5031a245d1921.js?e4fbfa3aba3a28a2d4f5031a245d1921, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e4fbfa3aba3a28a2d4f5031a245d1921.js?e4fbfa3aba3a28a2d4f5031a245d1921, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e4fbfa3aba3a28a2d4f5031a245d1921.js?e4fbfa3aba3a28a2d4f5031a245d1921, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e4fbfa3aba3a28a2d4f5031a245d1921.js?e4fbfa3aba3a28a2d4f5031a245d1921, line 94: unreachable code after return statement
+[Child 9040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5[Parent 3420, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
