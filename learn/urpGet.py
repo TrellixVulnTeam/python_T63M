@@ -77,15 +77,28 @@ class getResource:
         print(ts)
         for index in ts:
             print(index.text)
+            # from lxml import etree
+            # print(txt.text)
+            # htm = etree.HTML(txt.text)
+            # html_data = htm.xpath('/html/body/table/td')
+            # print(html_data)
 
-        from lxml import etree
-        print(txt.text)
-        htm = etree.HTML(txt.text)
-        html_data = htm.xpath('/html/body/table/td')
-        print(html_data)
 
+import requests
+
+
+def get_cpu():
+    resp = requests.get("http://localhost:8763/actuator/metrics/system.cpu.usage")
+    result = resp.content
+    print(result)
+
+
+import time
 
 if __name__ == '__main__':
-    getResource().req_html()
+    # getResource().req_html()
     # ss = "b'sssasa"
     # print(ss[2:-1])
+    while True:
+        get_cpu()
+        time.sleep(1)
