@@ -7,16 +7,20 @@ import time
 
 import itchat
 from itchat.content import *
+
 imp.reload(sys)
 import os
+
 msg_information = {}
 face_bug = None  # 针对表情包的内容
+
+
 @itchat.msg_register([TEXT, PICTURE, FRIENDS, CARD, MAP, SHARING, RECORDING, ATTACHMENT, VIDEO], isFriendChat=True,
                      isGroupChat=True, isMpChat=True)
 def handle_receive_msg(msg):
     global face_bug
     msg_time_rec = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())  # 接受消息的时间
-    msg_from = itchat.search_friends(userName=msg['FromUserName'])['NickName']  # 在好友列表中查询发送信息的好友昵称
+    msg_from = itchat.search_friends(userName=msg['FromUserName'])['nickName']  # 在好友列表中查询发送信息的好友昵称
     msg_time = msg['CreateTime']  # 信息发送的时间
     msg_id = msg['MsgId']  # 每条信息的id
     msg_content = None  # 储存信息的内容
@@ -39,7 +43,7 @@ def handle_receive_msg(msg):
         msg['Text']('/home/wechat/pic/' + str(msg_content))  # 下载文件
         # print msg_content
     elif msg['Type'] == 'Card':  # 如果消息是推荐的名片
-        msg_content = msg['RecommendInfo']['NickName'] + '的名片'  # 内容就是推荐人的昵称和性别
+        msg_content = msg['RecommendInfo']['nickName'] + '的名片'  # 内容就是推荐人的昵称和性别
         if msg['RecommendInfo']['Sex'] == 1:
             msg_content += '性别为男'
         else:
@@ -105,12 +109,17 @@ def information(msg):
                     or old_msg["msg_type"] == "Recording" \
                     or old_msg["msg_type"] == "Video" \
                     or old_msg["msg_type"] == "Attachment":
-                file = '@fil@%s' % ("/home/wechat/pic/"+old_msg['msg_content'])
+                file = '@fil@%s' % ("/home/wechat/pic/" + old_msg['msg_content'])
                 itchat.send(msg=file, toUserName='filehelper')
-                os.remove("/home/wechat/pic/"+old_msg['msg_content'])
+                os.remove("/home/wechat/pic/" + old_msg['msg_content'])
             # 删除字典旧消息
             msg_information.pop(old_msg_id)
 
 
-itchat.auto_login(hotReload=True, enableCmdQR=2)
+itchat.auto_login(hotReload=True)
+ls = itchat.get_friends()
+print(type(ls))
+print(ls)
+print(itchat.search_friends(nickName='王蒙枝')[0])
+print(len(ls))
 itchat.run()
